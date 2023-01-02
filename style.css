@@ -10,42 +10,40 @@ body {
 section {
   background-color: white;
   padding: 30px;
-  margin: 20%;
+  margin: 10% auto;
   border-radius: 15px;
   min-height: 300px;
+  width: fit-content;
+}
+.format {
+  max-width: 360px;
 }
 
 .done {
   color: red;
   text-decoration-line: line-through;
+  
 }
 
-
-ul{
+ul {
   display: flex;
-  gap:10px;
+  gap: 10px;
   flex-direction: column;
   margin-top: 10px;
   font-size: 20px;
   text-transform: capitalize;
   font-weight: bold;
 }
-li{
+li {
   display: flex;
-  gap:5px;
+  gap: 5px;
   padding: 5px 0;
 }
-li:hover{
-  background-color:rgb(101, 99, 99);
+li:hover {
+  background-color: rgb(101, 99, 99);
   color: white;
-  
 }
 
-li button{
+li > button {
   margin-left: auto;
-
-}
-.format{
-  max-width: 360px;
-  
 }

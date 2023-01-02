@@ -115,9 +115,9 @@ function checkboxes() {
 
   for (const checkbox of checkboxes) {
     if (checkbox.checked) {
-      checkbox.parentElement.classList.add('done')
+      checkbox.nextSibling.classList.add('done')
     } else {
-      checkbox.parentElement.classList.remove('done')
+      checkbox.nextSibling.classList.remove('done')
     }
   }
 }
